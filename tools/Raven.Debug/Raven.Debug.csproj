@@ -18,6 +18,8 @@
     <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="1.1.1" />
     <PackageReference Include="Microsoft.Diagnostics.Runtime" Version="1.1.142101" />
     <PackageReference Include="Microsoft.Diagnostics.NETCore.Client" Version="0.2.217401" />
+    <PackageReference Include="Microsoft.Diagnostics.NETCore.Client" Version="0.2.221401" />
+    <PackageReference Include="Microsoft.Diagnostics.Runtime-ravendb" Version="1.0.8" />
     <PackageReference Include="Microsoft.Diagnostics.Tracing.TraceEvent" Version="2.0.66" />
     <PackageReference Include="Microsoft.Win32.Registry" Version="4.7.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
