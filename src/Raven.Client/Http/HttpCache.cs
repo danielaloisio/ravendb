@@ -112,7 +112,7 @@ namespace Raven.Client.Http
                 if (_usages > 0)
                     throw new LowMemoryException("Detected a leak on HttpCache when running the finalizer. See: https://issues.hibernatingrhinos.com/issue/RavenDB-9737");
 
-        }
+            }
 #endif
         }
 
@@ -203,7 +203,7 @@ namespace Raven.Client.Http
                 if (_items.Count == 0)
                     return;
 
-                Debug.Assert(_isFreeSpaceRunning); 
+                Debug.Assert(_isFreeSpaceRunning);
 
                 if (Logger.IsInfoEnabled)
                     Logger.Info($"Started to clear the http cache. Items: {_items.Count:#,#;;0}");
@@ -256,7 +256,7 @@ namespace Raven.Client.Http
             finally
             {
                 _isFreeSpaceRunning.Lower();
-            }            
+            }
         }
 
         public struct ReleaseCacheItem : IDisposable
